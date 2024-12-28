@@ -10,7 +10,6 @@ export const QrCodeScanner = () => {
     setQrValue(result[0].rawValue);
 
     const prevData = JSON.parse(localStorage.getItem(SCAN_DATA) || '[]');
-    console.log('scanData:', data);
 
     localStorage.setItem(
       SCAN_DATA,
