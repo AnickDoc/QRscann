@@ -3,7 +3,7 @@ import { Navigation } from "./components/Navigation/Navigation";
 import { QrCodeGenerator } from "./components/Generator/QrCodeGenerator";
 import { QrCodeScanner } from "./components/Scanner/QrCodeScanner";
 import { History } from "./components/History/History";
-import './Layout.css';
+import './layout.css';
 
 export const Layout = () => {
   return (
